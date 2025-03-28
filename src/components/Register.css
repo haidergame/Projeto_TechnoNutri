@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.register-container {
+    background-image: url('../images/back_login_png.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Nova Square", sans-serif;
+}
+
+.register-title {
+    color: #FA4C16;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.register-form {
+    background-color: #3C504B;
+    padding: 2rem;
+    border-radius: 25px;
+    width: 25rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.register-input {
+    width: 100%;
+    height: 3rem;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.register-button {
+    width: 100%;
+    height: 3rem;
+    border-radius: 15px;
+    border: none;
+    background-color: #FA4C16;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-button:hover {
+    background-color: #d94214;
+}
+
+.login-button {
+    width: 100%;
+    height: 3rem;
+    border-radius: 15px;
+    border: none;
+    background-color: #5C736D;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #4b5c56;
+}
+
+.register-message {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #FA4C16;
+    text-align: center;
+}

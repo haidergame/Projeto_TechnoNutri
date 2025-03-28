@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nova Square", sans-serif;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.product-title {
+  color: #FA4C16;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3C504B;
+  padding: 2rem;
+  border-radius: 25px;
+  width: 25rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-input {
+  width: 100%;
+  height: 3rem;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+
+.product-button {
+  width: 100%;
+  height: 3rem;
+  border-radius: 15px;
+  border: none;
+  background-color: #FA4C16;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-button:hover {
+  background-color: #d94214;
+}
+
+.product-message {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #FA4C16;
+  text-align: center;
+}
+
+.product-list {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.product-list-title {
+  color: #FA4C16;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #3C504B;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-delete-button {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #FA4C16;
+  color: white;
+  cursor: pointer;
+}
+
+.product-delete-button:hover {
+  background-color: #d94214;
+}
